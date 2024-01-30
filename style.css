@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,700;1,500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar img {
+  width: 200px;
+}
+.nav-bar button {
+  width: 200px;
+  border: 1px solid gray;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 14px;
+  padding: 5px;
+}
+.profile-img img {
+  width: 100px;
+  border: 2px solid rgb(184, 182, 182);
+  border-radius: 100px;
+}
+.main-container {
+  width: 400px;
+  height: 430px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+}
+.post-img img {
+  width: 100%;
+}
+.info {
+  margin: 10px 20px;
+}
+.commnet {
+  margin: 5px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
